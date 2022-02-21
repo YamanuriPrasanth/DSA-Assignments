@@ -1,0 +1,13 @@
+List
+1)Contains elements of different data types
+2)Explicitly importing module is not required to declare a list
+3)Cannot handle arithmetic operations
+4)Can be nested inside another list
+5)Mostly used in the shorter sequence of data elements
+
+Array
+1)Contains elements of same data types
+2)Need to import the module explicitly to declare an array
+3)Can handle arithmetic operations
+4)Must contain all elements of the same size
+5)Mostly used in the longer sequence of data elements
