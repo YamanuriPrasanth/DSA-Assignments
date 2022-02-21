@@ -83,3 +83,14 @@ Hence, hash map can be seen as a set of key value pairs. Each key is a number in
 
 A good example for hash map is phone book. A phone book has names and phone numbers. In this case, the names are the keys, the phone numbers are the values. 
 Imagine having a billion integers, using a search algorithm like linear search will take months while hash map will take a second.
+
+6)How do you explain the complexities of time and space?
+
+7)How do you recursively sort a stack?
+1)Initialize a stack and push elements in it.
+2)Create a function to insert the elements in sorted order in the stack which accepts a stack and an element as a parameter. Check if the stack is empty or the given element is greater than the element at the top of the stack, push the element in the stack and return.
+3)Create a temporary variable and store the top of the stack in it. Pop the element at the top of the stack and make the recursive call to the function itself. Push the temporary variable in the stack.
+4)Similarly, create a function sort() that accepts a stack as a parameter. Check if the stack is not empty, create a variable x, and store the top of the stack in it. Pop the element at the top of the stack. Make a recursive call to the function itself. Call the function to insert the elements in sorted order in the stack.
+5)Call the sort function in the main().
+6)Create a function to print the sorted stack which accepts a stack as the parameter. Traverse while the stack is not empty, print the data of the stack and move to the next element.
+
