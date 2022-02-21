@@ -1,3 +1,4 @@
+1)What is the distinction between a list and an array?
 List
 1)Contains elements of different data types
 2)Explicitly importing module is not required to declare a list
@@ -11,3 +12,14 @@ Array
 3)Can handle arithmetic operations
 4)Must contain all elements of the same size
 5)Mostly used in the longer sequence of data elements
+
+
+2)What are the qualities of a binary tree?
+1. The number of external nodes is 1 more than the number of internal nodes
+2.  The number of external nodes is at least h + 1, where h is the height of the tree, and at most 2h . 
+3.  The number of internal nodes is at least h and at most 2h - 1.
+4.  The total number of nodes in a binary tree is at least 2*h + 1 and at most  2h+1 - 1.
+5.  The height, h, of a binary tree with n nodes is at least log n+1  and at most n.
+6.  A binary tree with n nodes has exactly n - 1 edges.
+
+
