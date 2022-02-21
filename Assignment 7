@@ -1,4 +1,4 @@
-<h>1)What is the distinction between a list and an array?</h>
+1)What is the distinction between a list and an array?
 List
 1)Contains elements of different data types
 2)Explicitly importing module is not required to declare a list
